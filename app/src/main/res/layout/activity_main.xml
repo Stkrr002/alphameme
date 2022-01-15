@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/idprogress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="@+id/image"
+        app:layout_constraintStart_toStartOf="@+id/image"
+        app:layout_constraintTop_toTopOf="@+id/image"></ProgressBar>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="398dp"
+        android:layout_height="379dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/idshare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/idshare"
+        android:layout_width="wrap_content"
+
+        android:layout_height="72dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="share"
+        android:padding="10dp"
+        android:text="Share"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.501">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/idnext"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="next"
+        android:padding="10dp"
+
+        android:text="Next"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.646"
+        app:layout_constraintStart_toEndOf="@+id/idshare"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
