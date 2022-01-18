@@ -2,7 +2,7 @@
 A android app which display new meme on each click.
  
 
-**used API which is dynamic Glide library used.  Recycler view etc..**
+**used API which is dynamic/ Glide library used / Recycler view etc..**
 
 
 **Tech Stack
@@ -23,3 +23,5 @@ kotlin|| xml**
 ![WhatsApp Image 2022-01-18 at 3 48 24 PM](https://user-images.githubusercontent.com/88109183/149919342-056275b6-b14f-4e7a-a720-81c7372ebe27.jpeg)
 
 
+
+##thanks , I hope you liked and enjoyed this.
