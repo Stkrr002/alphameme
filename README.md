@@ -2,7 +2,7 @@
 A android app which display new meme on each click.
  
 
-**used API which is dynamic/ Glide library used / Recycler view etc..**
+**used API which is dynamic/ Glide library used / Recycler view etc/implicit intent/explicit intent..**
 
 
 **Tech Stack
